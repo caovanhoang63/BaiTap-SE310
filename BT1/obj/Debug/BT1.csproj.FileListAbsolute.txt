@@ -1,0 +1,10 @@
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\bin\Debug\BT1.exe.config
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\bin\Debug\BT1.exe
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\bin\Debug\BT1.pdb
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\obj\Debug\BT1.csproj.AssemblyReference.cache
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\obj\Debug\BT1.Properties.Resources.resources
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\obj\Debug\BT1.csproj.GenerateResource.cache
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\obj\Debug\BT1.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\obj\Debug\BT1.exe
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\obj\Debug\BT1.pdb
+C:\Users\MY PC\RiderProjects\BaiTap-SE310\BT1\obj\Debug\BT1.Form1.resources
