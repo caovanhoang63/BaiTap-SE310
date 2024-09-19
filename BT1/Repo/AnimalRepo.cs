@@ -5,7 +5,8 @@ namespace BT1.Repo
 {
     public interface IAnimalRepo
     {
-        void GetMilk(int l);
+        void ProduceMilk(int l);
+        int GetMilk();
         void AddAnimals(List<Animal> animals);
         List<Animal> GetAllAnimals();
         void AddAnimal(Animal animal);

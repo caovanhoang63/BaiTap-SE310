@@ -18,7 +18,7 @@ namespace BT1.Model
         public override List<Animal> GiveBirth()
         {
             Random rnd = new Random(Guid.NewGuid().GetHashCode());
-            int num = rnd.Next(0, 10);
+            int num = rnd.Next(0, 1);
             List<Animal> children = new List<Animal>();
             for (int i = 0; i < num; i++)
             {
