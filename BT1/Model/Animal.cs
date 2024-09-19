@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace BT1.Model
 {
@@ -6,13 +8,23 @@ namespace BT1.Model
     {
         protected Animal()
         {
-            this.Id = Guid.NewGuid().GetHashCode();
+            this.Id = Guid.NewGuid();
         }
+
+        protected Animal(Guid id)
+        {
+            this.Id = id;
+        }
+        
         public AnimalType AnimalType { get; protected set; }
-        public int Id { get; protected set; }
+        public Guid Id { get; protected set; }
         protected string Sound { get; set; }
-        public abstract string MakeSound();
-        public abstract Animal GiveBirth();
+
+        public  void MakeSound()
+        {
+            Debug.WriteLine(this.Sound);
+        }
+        public abstract List<Animal> GiveBirth();
         public abstract int ProduceMilk();
     }
 }

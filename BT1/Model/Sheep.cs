@@ -1,24 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BT1.Model
 {
     public class Sheep : Animal
     {
-        public Sheep()
+        public Sheep() : base()
         {
             this.AnimalType = AnimalType.Sheep;
             this.Sound = "Bebe";
-            this.Id = Guid.NewGuid().GetHashCode();
         }
-        
-        public override string MakeSound()
+        public Sheep(Guid id) : base(id)
         {
-            return this.Sound;
+            this.AnimalType = AnimalType.Sheep;
         }
 
-        public override Animal GiveBirth()
+        public override List<Animal> GiveBirth()
         {
-            return new Sheep();
+            Random rnd = new Random(Guid.NewGuid().GetHashCode());
+            int num = rnd.Next(0, 10);
+            List<Animal> children = new List<Animal>();
+            for (int i = 0; i < num; i++)
+            {
+                children.Add(new Sheep());
+            }
+            return children;
         }
         
 
